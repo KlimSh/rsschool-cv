@@ -17,7 +17,13 @@
 - CSS/SASS
 - JS
 ## __Code Example:__
+```javascript
+function multiply(a, b){
+  return (a * b);
+}
 
+multiply(1, 2);
+```
 ## __Languages:__
 - English (a-2)
 - Russian (native)
