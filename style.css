@@ -44,9 +44,26 @@ body {
 }
 
 .private {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: white solid 1px;
 }
 
+.show-scroll {
+    cursor: pointer
+}
+
+.scroll {
+    display:none;
+    padding:10px;
+    background:white;
+    border: black solid 1px;
+    color: black;
+}
+.show-scroll:hover .scroll{
+    display:block;
+}
 
 .footer {
     display: grid;
@@ -56,9 +73,8 @@ body {
     color: white;
 }
 
-
 @media (max-width: 800px) {
-   .footer {
+    .footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
