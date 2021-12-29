@@ -1,1 +1,1 @@
-https://KlimSH.github.io/rsschool-cv/cv
+https://KlimSH.github.io/rsschool-cv/
